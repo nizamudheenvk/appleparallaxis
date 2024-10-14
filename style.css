@@ -1,0 +1,182 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    position: absolute;
+    margin-top: 30px;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+
+}
+.logo{
+    font-weight: 20px;
+}
+
+
+
+header a{
+    margin: 10px;
+    justify-content: space-between;
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+
+body{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.prallax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sec{
+  
+    background-color:black;
+
+    width: 100%;
+    height: 100vh;
+    
+}
+.per{
+     color: black;
+}
+.card1{
+    /* box-shadow: 0px 0px 10px 10px grey; */
+    margin-left: 40px;
+    width: 400px;
+    background-color: grey;
+    border: solid grey;
+    border-radius: 20px;
+    margin-bottom: 70px;
+
+}
+.card2{
+    /* box-shadow: 0px 0px 10px 10px grey; */
+    margin-left: 1000px;
+    width: 400px;
+   margin-bottom: 150px;
+   background-color: grey;
+   box-sizing: border-box;
+   border-radius: 20px;
+   border: solid grey; 
+}
+/* .card1:hover{
+ box-shadow: 0px 0px 10px 10px grey;
+ transform: scale(1.1);
+ transition: 0.2s;
+ 
+
+}
+.card2:hover{
+    box-shadow: 0px 0px 10px 10px grey;
+    transform: scale(1.1);
+    transition: 0.2s;
+} */
+    
+#image{
+    border-radius: 20px;
+}
+
+
+.sec1{
+    position: absolute;
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0vh;
+}
+ .seco{
+        display: flex;
+        overflow-x: scroll; 
+        white-space: nowrap; 
+        padding: 10px;
+        margin-top: 40px;
+        margin-left: 140%;
+        background-attachment: fixed;
+        margin: 30px; 
+        
+ }
+ 
+
+.cards.highlight {
+   transform: scale(1.2);
+    filter: brightness(0.9);
+    transition: 0.3s;
+    /* box-shadow: 0px 0px 15px 15px white; */
+    background-color: grey;
+    border-radius: 15px;
+}
+.cards{
+    
+    flex: 0 0 auto; 
+    margin: 20px;
+    width: 250px;
+    margin-right: 15px;
+    padding: 1px;
+    /* border: solid ; */
+    border-radius: 20px;
+    filter: brightness(0.4);
+    transition: 0.3s;
+
+    
+}
+.secContainer{
+    background-color: black;
+   
+
+}
+.secContainer1{
+   
+    background-color: black;
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+   
+}
+.head1{
+
+color: white;
+text-align: center;
+font-size: 100px;
+justify-content: center;
+filter: brightness(0.2);
+size: 500px;
+}
+/* .head2{
+    color: white;
+text-align: center;
+font-size: 100px;
+margin-left: 150%;
+filter: brightness(0.2);
+} */
+/* #myVideo {
+    position: fixed;
+    position: absolute;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    margin-top: 60px;
+  } */
